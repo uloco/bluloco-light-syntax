@@ -1,0 +1,50 @@
+.source.js {
+  .keyword.operator {
+    color: @syntax-keyword;
+    &.accessor, &.assignment  {
+        color: @syntax-operator
+    }
+
+
+    &.quantifier.regexp {
+      color: @syntax-keyword;
+    }
+
+    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
+    // search "instanceof" for location
+    &.delete,
+    &.in,
+    &.of,
+    &.instanceof,
+    &.new,
+    &.typeof,
+    &.void {
+      color: @syntax-keyword;
+    }
+  }
+
+  .variable {
+      color: @mono-1;
+      &.property {
+          color: @syntax-field;
+      }
+  }
+
+  .meta {
+    &.method-call,
+    &.function-call {
+      color: @syntax-field;
+    }
+  }
+
+  .support {
+    &.class {
+      color: @mono-1;
+    }
+  }
+  // .constant {
+  //     &.language {
+  //         color: @syntax-keyword;
+  //     }
+  // }
+}

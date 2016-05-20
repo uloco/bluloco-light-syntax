@@ -1,0 +1,26 @@
+{
+  "name": "bluloco-light-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A fancy but yet sophisticated light designer color scheme for the Atom editor",
+  "keywords": [
+    "syntax",
+    "theme",
+    "bluloco",
+    "designer",
+    "meaningful",
+    "color",
+    "scheme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uloco/bluloco-light-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/uloco/bluloco-light-syntax/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

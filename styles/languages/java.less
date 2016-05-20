@@ -1,0 +1,23 @@
+.source.java {
+  .storage {
+    &.modifier.import {
+      color: @syntax-field;
+    }
+
+    &.type {
+      &.annotation {
+        color: @syntax-meta;
+      }
+    }
+  }
+}
+
+.source.java-properties {
+  .meta.key-pair {
+    color: @syntax-field;
+
+    & > .punctuation {
+      color: @syntax-operator;
+    }
+  }
+}
