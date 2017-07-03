@@ -1,7 +1,7 @@
 {
   "name": "bluloco-light-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A fancy but yet sophisticated light designer color scheme for the Atom editor",
   "keywords": [
     "syntax",
